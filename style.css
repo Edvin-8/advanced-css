@@ -1,0 +1,39 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+a:link,
+a:visited {
+	color: #59DD1A;
+	text-decoration: none;
+}
+a:hover {
+	color: #9A1315;
+}
+a:active {
+	color: #0CDEF0;
+}
+a[target] {
+	    color: red;
+}
+
+
+body p:last-child:hover{
+	font-style: italic;
+}
+
+#second-div p:last-child:hover{
+	font-style: normal;
+}
+
+#second-div p:nth-child(odd){
+	color: blue;
+}
+#second-div p:nth-child(even){
+	color: red;
+}
+
+#first-div > p:after {
+	color:yellow;
+	content: "-New";
+}
